@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-component.component.css']
 })
 export class HomeComponentComponent {
+  valorContador: number = 0;
 
+  decrementar(){
+    this.valorContador--;
+  }
+
+  incrementar(){
+    this.valorContador++;
+  }
 }
